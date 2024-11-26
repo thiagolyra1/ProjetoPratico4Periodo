@@ -16,8 +16,7 @@ link do vídeo https://www.youtube.com/watch?v=YLYCA8F-UTE
 - [Guia de Instalação](#guia-de-instalação)
   - [Backend](#backend)
   - [Frontend](#frontend)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+
 
 ---
 
@@ -40,7 +39,7 @@ Este projeto é um sistema completo desenvolvido para a disciplina de **Programa
 
 2. Navegue até a pasta `backend` e instale as dependências:
     ```bash
-    cd backend
+    cd ./backend
     npm install
     ```
 
@@ -156,7 +155,7 @@ Este projeto é um sistema completo desenvolvido para a disciplina de **Programa
 
 2. Instale as dependências do frontend:
     ```bash
-    cd frontend
+    cd ./frontend
     npm install
     npm install sass react-icons axios
     ```
@@ -164,29 +163,5 @@ Este projeto é um sistema completo desenvolvido para a disciplina de **Programa
 3. Inicie o projeto:
     ```bash
     npm run dev
-    ```
+    ```git a
 
----
-
-## Contribuindo
-
-1. Faça um fork do repositório.
-2. Crie uma branch com sua feature ou correção:
-    ```bash
-    git checkout -b minha-feature
-    ```
-3. Commit suas mudanças:
-    ```bash
-    git commit -m "Minha nova feature"
-    ```
-4. Faça o push para a branch:
-    ```bash
-    git push origin minha-feature
-    ```
-5. Abra um Pull Request.
-
----
-
-## Licença
-
-Este projeto é licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
